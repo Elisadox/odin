@@ -12,3 +12,104 @@ img,
 video {
   display: block;
 }
+h2 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h3 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+
+h4 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-self: stretch;
+}
+p {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lien {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: 17.5%; /* 3.5px */
+  text-underline-position: from-font;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 791px;
+  align-self: stretch;
+}
+.cadre {
+  border-radius: 8px;
+  border: 2px solid var(--Text-main, #515050);
+  display: flex;
+  width: 955px;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.bouton {
+  border-radius: 8px;
+  background: var(--Blue, #279ef8);
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 100px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.tnav {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+h6 {
+  color: var(--Blue, #279ef8);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.html {
+  --color-red: #f82727;
+}
+.header {
+  background-color: red;
+}
