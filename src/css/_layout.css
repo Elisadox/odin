@@ -38,13 +38,45 @@
   border-radius: 8px;
   background: var(--Red, #f82727);
 }
-article {
+articleblue {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: start;
   border-radius: 8px;
   border: 2px solid var(--Blue, #279ef8);
+  background: var(--Background, #fff);
+  text-align: start;
+}
+article-red {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 8px;
+  border: 2px solid var(--Red, #f82727);
+  background: var(--Background, #fff);
+  text-align: start;
+}
+articleyellow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  border-radius: 8px;
+  border: 2px solid var(--Yellow, #f8af27);
+  background: var(--Background, #fff);
+}
+.panthéons {
+  display: flex;
+}
+articlegreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border-radius: 8px;
+  border: 2px solid var(--Green, #12965d);
   background: var(--Background, #fff);
   text-align: start;
 }

@@ -39,6 +39,14 @@ h4 {
   line-height: normal;
   align-self: stretch;
 }
+h5 {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 p {
   color: var(--Text-main, #515050);
   font-family: "Bubbler One";
@@ -112,4 +120,33 @@ h6 {
 }
 .header {
   background-color: red;
+}
+section {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+section2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  align-content: flex-start;
+}
+section3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  align-content: flex-start;
+}
+section4 {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  align-content: flex-start;
 }
