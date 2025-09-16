@@ -105,6 +105,42 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.galerie-zeus {
+  background-image: url(../../img/imgc/zeus.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-lucifer {
+  background-image: url(../../img/imgc/lucifer.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-hel {
+  background-image: url(../../img/imgc/hel.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-isis {
+  background-image: url(../../img/imgc/isis.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .galerie-title {
   background-color: var(--background-main);
 }
@@ -127,5 +163,17 @@
   align-self: flex-end;
 }
 .galerie-artemis svg {
+  align-self: flex-end;
+}
+.galerie-zeus svg {
+  align-self: flex-end;
+}
+.galerie-lucifer svg {
+  align-self: flex-end;
+}
+.galerie-hel svg {
+  align-self: flex-end;
+}
+.galerie-isis svg {
   align-self: flex-end;
 }
