@@ -1,0 +1,131 @@
+.articleblue {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px solid var(--Blue, #279ef8);
+  text-align: start;
+  background: var(--Background, #fff);
+}
+.articlered {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px solid var(--Red, #f82727);
+  background: var(--Background, hsl(0, 0%, 100%));
+  text-align: start;
+}
+.articleyellow {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px solid var(--Yellow, #f8af27);
+  background: var(--Background, #fff);
+}
+.panthéons {
+  display: flex;
+  justify-content: space-between;
+}
+.articlegreen {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 2px solid var(--Green, #12965d);
+  background: var(--Background, #fff);
+  text-align: start;
+}
+.galerie-img {
+  background-image: url(../../img/imgc/athena.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-mars {
+  background-image: url(../../img/imgc/mars.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-ra {
+  background-image: url(../../img/imgc/ra.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-freya {
+  background-image: url(../../img/imgc/freya.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-loki {
+  background-image: url(../../img/imgc/loki.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-fortuna {
+  background-image: url(../../img/imgc/fortuna.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-artemis {
+  background-image: url(../../img/imgc/artemis.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-anubis {
+  background-image: url(../../img/imgc/anubis.png);
+  height: 216px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.galerie-title {
+  background-color: var(--background-main);
+}
+.galerie-freya svg {
+  align-self: flex-end;
+}
+.galerie-ra svg {
+  align-self: flex-end;
+}
+.galerie-img svg {
+  align-self: flex-end;
+}
+.galerie-mars svg {
+  align-self: flex-end;
+}
+.galerie-loki svg {
+  align-self: flex-end;
+}
+.galerie-fortuna svg {
+  align-self: flex-end;
+}
+.galerie-artemis svg {
+  align-self: flex-end;
+}
