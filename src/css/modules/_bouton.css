@@ -32,7 +32,7 @@
   justify-content: space-between;
   border-radius: 8px;
   width: 100%;
-  background: var(--Blue, #279ef8);
+  background: var(--Blue);
 }
 .nav {
   display: flex;
@@ -42,7 +42,7 @@
   align-self: stretch;
 }
 .tnav {
-  color: var(--Background, #fff);
+  color: var(--background-main);
   font-family: "Caesar Dressing";
   font-size: 20px;
   font-style: normal;

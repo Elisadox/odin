@@ -1,0 +1,26 @@
+.footer {
+  background: var(--color-bg);
+  padding: 40px 80px;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.footercontent {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  text-align: center;
+  width: 100%;
+}
+.trait {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-top: 1px solid var(--Text-main);
+  margin-top: 40px;
+}
+.textefooter {
+  color: var(--Text-main);
+}

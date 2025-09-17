@@ -1,17 +1,21 @@
+.art2 {
+  padding-bottom: 12px;
+}
+
 .articleblue {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   border: 2px solid var(--Blue, #279ef8);
   text-align: start;
-  background: var(--Background, #fff);
+  background: var(--Background);
 }
 .articlered {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   border: 2px solid var(--Red, #f82727);
-  background: var(--Background, hsl(0, 0%, 100%));
+  background: var(--Background);
   text-align: start;
 }
 .articleyellow {
@@ -19,18 +23,20 @@
   flex-direction: column;
   border-radius: 8px;
   border: 2px solid var(--Yellow, #f8af27);
-  background: var(--Background, #fff);
+  background: var(--Background);
 }
 .panthéons {
   display: flex;
   justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .articlegreen {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   border: 2px solid var(--Green, #12965d);
-  background: var(--Background, #fff);
+  background: var(--Background);
   text-align: start;
 }
 .galerie-img {
@@ -176,4 +182,28 @@
 }
 .galerie-isis svg {
   align-self: flex-end;
+}
+.galerie-title-blue {
+  color: var(--Blue);
+  padding: 8px 12px;
+  background-color: var(--background-main);
+  font-family: "Caesar Dressing";
+}
+.galerie-title-red {
+  color: var(--Red);
+  background-color: var(--background-main);
+  padding: 8px 12px;
+  font-family: "Caesar Dressing";
+}
+.galerie-title-yellow {
+  color: var(--Yellow);
+  background-color: var(--background-main);
+  padding: 8px 12px;
+  font-family: "Caesar Dressing";
+}
+.galerie-title-green {
+  color: var(--Green);
+  background-color: var(--background-main);
+  padding: 8px 12px;
+  font-family: "Caesar Dressing";
 }
