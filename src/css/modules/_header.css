@@ -27,3 +27,75 @@
   border: 1px solid var(--Text-secondary, #000);
   background: var(--Text-main, #515050);
 }
+.header-lien {
+  display: flex;
+  gap: 16px;
+  margin-left: 500px;
+}
+.header-lien a {
+  text-decoration: none;
+  color: var(--color-text-secondary, #f7f6f6);
+  font-size: 16px;
+  font-family: "Bubbler One";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.burger-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .header-lien {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .burger-btn {
+    display: block;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+
+  .show-menu .header-lien {
+    display: flex;
+  }
+
+  .show-menu .header-dark-mode-btn,
+  .show-menu .header-light-mode-btn {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .header-dark-mode-btn,
+  .header-light-mode-btn {
+    display: none;
+  }
+}
+.header-top {
+  display: flex;
+  width: 393px;
+  height: 89px;
+  padding: 20px 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}

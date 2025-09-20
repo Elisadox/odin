@@ -155,6 +155,7 @@
 }
 .galerie-ra svg {
   align-self: flex-end;
+  padding-right: 10px;
 }
 .galerie-img svg {
   align-self: flex-end;
@@ -206,4 +207,13 @@
   background-color: var(--background-main);
   padding: 8px 12px;
   font-family: "Caesar Dressing";
+}
+.art1 {
+  padding-left: 12px;
+}
+.art2 {
+  padding-left: 12px;
+}
+.panthéons {
+  padding-right: 10px;
 }

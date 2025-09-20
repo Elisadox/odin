@@ -7,10 +7,13 @@
 .footercontent {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
 }
 .copyright {
   text-align: center;
   width: 100%;
+  color: var(--color-text-secondary);
 }
 .trait {
   display: flex;
@@ -22,5 +25,15 @@
   margin-top: 40px;
 }
 .textefooter {
-  color: var(--Text-main);
+  color: var(--color-text-secondary);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 600px) {
+  .footercontent {
+    flex-direction: column;
+  }
 }

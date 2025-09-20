@@ -85,6 +85,9 @@ p {
   text-underline-offset: 17.5%; /* 3.5px */
   text-underline-position: from-font;
   display: flex;
+  align-self: stretch;
+  gap: 8px;
+  justify-content: space-between;
 }
 .cadre {
   border-radius: 8px;
@@ -118,7 +121,7 @@ html {
   --color-bg: #bcbfc3;
   --color-text-main: #515050;
   --color-text-secondary: #000000;
-  --Text-main: #696a6c;
+  --Text-main: #515050;
   --background-main: white;
   --Blue: #279ef8;
   --Yellow: #f8af27;
